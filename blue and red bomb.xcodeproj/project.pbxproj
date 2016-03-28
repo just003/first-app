@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F758E9041CA8CCEA0001519E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F758E9031CA8CCEA0001519E /* AppDelegate.swift */; };
+		F758E9061CA8CCEA0001519E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F758E9051CA8CCEA0001519E /* ViewController.swift */; };
+		F758E9091CA8CCEA0001519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F758E9071CA8CCEA0001519E /* Main.storyboard */; };
+		F758E90B1CA8CCEA0001519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F758E90A1CA8CCEA0001519E /* Assets.xcassets */; };
+		F758E90E1CA8CCEA0001519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F758E90C1CA8CCEA0001519E /* LaunchScreen.storyboard */; };
+		F758E9191CA8CCEA0001519E /* blue_and_red_bombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F758E9181CA8CCEA0001519E /* blue_and_red_bombTests.swift */; };
+		F758E9241CA8CCEA0001519E /* blue_and_red_bombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F758E9231CA8CCEA0001519E /* blue_and_red_bombUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F758E9151CA8CCEA0001519E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F758E8F81CA8CCEA0001519E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F758E8FF1CA8CCEA0001519E;
+			remoteInfo = "blue and red bomb";
+		};
+		F758E9201CA8CCEA0001519E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F758E8F81CA8CCEA0001519E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F758E8FF1CA8CCEA0001519E;
+			remoteInfo = "blue and red bomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F758E9001CA8CCEA0001519E /* blue and red bomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blue and red bomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F758E9031CA8CCEA0001519E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F758E9051CA8CCEA0001519E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F758E9081CA8CCEA0001519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F758E90A1CA8CCEA0001519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F758E90D1CA8CCEA0001519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F758E90F1CA8CCEA0001519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F758E9141CA8CCEA0001519E /* blue and red bombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blue and red bombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F758E9181CA8CCEA0001519E /* blue_and_red_bombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blue_and_red_bombTests.swift; sourceTree = "<group>"; };
+		F758E91A1CA8CCEA0001519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F758E91F1CA8CCEA0001519E /* blue and red bombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blue and red bombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F758E9231CA8CCEA0001519E /* blue_and_red_bombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blue_and_red_bombUITests.swift; sourceTree = "<group>"; };
+		F758E9251CA8CCEA0001519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F758E8FD1CA8CCEA0001519E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E9111CA8CCEA0001519E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E91C1CA8CCEA0001519E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F758E8F71CA8CCEA0001519E = {
+			isa = PBXGroup;
+			children = (
+				F758E9021CA8CCEA0001519E /* blue and red bomb */,
+				F758E9171CA8CCEA0001519E /* blue and red bombTests */,
+				F758E9221CA8CCEA0001519E /* blue and red bombUITests */,
+				F758E9011CA8CCEA0001519E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F758E9011CA8CCEA0001519E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F758E9001CA8CCEA0001519E /* blue and red bomb.app */,
+				F758E9141CA8CCEA0001519E /* blue and red bombTests.xctest */,
+				F758E91F1CA8CCEA0001519E /* blue and red bombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F758E9021CA8CCEA0001519E /* blue and red bomb */ = {
+			isa = PBXGroup;
+			children = (
+				F758E9031CA8CCEA0001519E /* AppDelegate.swift */,
+				F758E9051CA8CCEA0001519E /* ViewController.swift */,
+				F758E9071CA8CCEA0001519E /* Main.storyboard */,
+				F758E90A1CA8CCEA0001519E /* Assets.xcassets */,
+				F758E90C1CA8CCEA0001519E /* LaunchScreen.storyboard */,
+				F758E90F1CA8CCEA0001519E /* Info.plist */,
+			);
+			path = "blue and red bomb";
+			sourceTree = "<group>";
+		};
+		F758E9171CA8CCEA0001519E /* blue and red bombTests */ = {
+			isa = PBXGroup;
+			children = (
+				F758E9181CA8CCEA0001519E /* blue_and_red_bombTests.swift */,
+				F758E91A1CA8CCEA0001519E /* Info.plist */,
+			);
+			path = "blue and red bombTests";
+			sourceTree = "<group>";
+		};
+		F758E9221CA8CCEA0001519E /* blue and red bombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F758E9231CA8CCEA0001519E /* blue_and_red_bombUITests.swift */,
+				F758E9251CA8CCEA0001519E /* Info.plist */,
+			);
+			path = "blue and red bombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F758E8FF1CA8CCEA0001519E /* blue and red bomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F758E9281CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bomb" */;
+			buildPhases = (
+				F758E8FC1CA8CCEA0001519E /* Sources */,
+				F758E8FD1CA8CCEA0001519E /* Frameworks */,
+				F758E8FE1CA8CCEA0001519E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blue and red bomb";
+			productName = "blue and red bomb";
+			productReference = F758E9001CA8CCEA0001519E /* blue and red bomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F758E9131CA8CCEA0001519E /* blue and red bombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F758E92B1CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bombTests" */;
+			buildPhases = (
+				F758E9101CA8CCEA0001519E /* Sources */,
+				F758E9111CA8CCEA0001519E /* Frameworks */,
+				F758E9121CA8CCEA0001519E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F758E9161CA8CCEA0001519E /* PBXTargetDependency */,
+			);
+			name = "blue and red bombTests";
+			productName = "blue and red bombTests";
+			productReference = F758E9141CA8CCEA0001519E /* blue and red bombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F758E91E1CA8CCEA0001519E /* blue and red bombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F758E92E1CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bombUITests" */;
+			buildPhases = (
+				F758E91B1CA8CCEA0001519E /* Sources */,
+				F758E91C1CA8CCEA0001519E /* Frameworks */,
+				F758E91D1CA8CCEA0001519E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F758E9211CA8CCEA0001519E /* PBXTargetDependency */,
+			);
+			name = "blue and red bombUITests";
+			productName = "blue and red bombUITests";
+			productReference = F758E91F1CA8CCEA0001519E /* blue and red bombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F758E8F81CA8CCEA0001519E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = desmond;
+				TargetAttributes = {
+					F758E8FF1CA8CCEA0001519E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F758E9131CA8CCEA0001519E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F758E8FF1CA8CCEA0001519E;
+					};
+					F758E91E1CA8CCEA0001519E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F758E8FF1CA8CCEA0001519E;
+					};
+				};
+			};
+			buildConfigurationList = F758E8FB1CA8CCEA0001519E /* Build configuration list for PBXProject "blue and red bomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F758E8F71CA8CCEA0001519E;
+			productRefGroup = F758E9011CA8CCEA0001519E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F758E8FF1CA8CCEA0001519E /* blue and red bomb */,
+				F758E9131CA8CCEA0001519E /* blue and red bombTests */,
+				F758E91E1CA8CCEA0001519E /* blue and red bombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F758E8FE1CA8CCEA0001519E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758E90E1CA8CCEA0001519E /* LaunchScreen.storyboard in Resources */,
+				F758E90B1CA8CCEA0001519E /* Assets.xcassets in Resources */,
+				F758E9091CA8CCEA0001519E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E9121CA8CCEA0001519E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E91D1CA8CCEA0001519E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F758E8FC1CA8CCEA0001519E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758E9061CA8CCEA0001519E /* ViewController.swift in Sources */,
+				F758E9041CA8CCEA0001519E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E9101CA8CCEA0001519E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758E9191CA8CCEA0001519E /* blue_and_red_bombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F758E91B1CA8CCEA0001519E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758E9241CA8CCEA0001519E /* blue_and_red_bombUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F758E9161CA8CCEA0001519E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F758E8FF1CA8CCEA0001519E /* blue and red bomb */;
+			targetProxy = F758E9151CA8CCEA0001519E /* PBXContainerItemProxy */;
+		};
+		F758E9211CA8CCEA0001519E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F758E8FF1CA8CCEA0001519E /* blue and red bomb */;
+			targetProxy = F758E9201CA8CCEA0001519E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F758E9071CA8CCEA0001519E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F758E9081CA8CCEA0001519E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F758E90C1CA8CCEA0001519E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F758E90D1CA8CCEA0001519E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F758E9261CA8CCEA0001519E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F758E9271CA8CCEA0001519E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F758E9291CA8CCEA0001519E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "blue and red bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F758E92A1CA8CCEA0001519E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "blue and red bomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F758E92C1CA8CCEA0001519E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "blue and red bombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blue and red bomb.app/blue and red bomb";
+			};
+			name = Debug;
+		};
+		F758E92D1CA8CCEA0001519E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "blue and red bombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blue and red bomb.app/blue and red bomb";
+			};
+			name = Release;
+		};
+		F758E92F1CA8CCEA0001519E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "blue and red bombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "blue and red bomb";
+			};
+			name = Debug;
+		};
+		F758E9301CA8CCEA0001519E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "blue and red bombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diamondlemon.blue-and-red-bombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "blue and red bomb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F758E8FB1CA8CCEA0001519E /* Build configuration list for PBXProject "blue and red bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758E9261CA8CCEA0001519E /* Debug */,
+				F758E9271CA8CCEA0001519E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F758E9281CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758E9291CA8CCEA0001519E /* Debug */,
+				F758E92A1CA8CCEA0001519E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F758E92B1CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758E92C1CA8CCEA0001519E /* Debug */,
+				F758E92D1CA8CCEA0001519E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F758E92E1CA8CCEA0001519E /* Build configuration list for PBXNativeTarget "blue and red bombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758E92F1CA8CCEA0001519E /* Debug */,
+				F758E9301CA8CCEA0001519E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F758E8F81CA8CCEA0001519E /* Project object */;
+}
